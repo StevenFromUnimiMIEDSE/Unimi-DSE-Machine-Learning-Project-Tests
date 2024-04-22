@@ -1,0 +1,33 @@
+1. standard flow to rank solutions
+2. Iterations, improve on test results
+3. Flow paradigm is improvement from naive prompt
+4. Rag
+5. Graph is like gardrail version of Rag
+6. Langchain documentation expression language
+7. parse out answer, format
+8. Alpha codium paper workflow is simplified to another solution locally
+
+Code
+1. Doc on langchain expression language
+2. three components to prep first step
+3. State, dictionary to the problem solving process
+4. every node change states
+5. generation node works on generation and iteration
+6. If state is error, retry, append
+7. if not error, generate result
+8. iteration register
+9. avoid making the same error
+10. code execution, check error or ok to proceed
+11. no error, code execution on going
+12. conditional check on output state, error to regenerate, no error go to next
+13. workflow
+14. worfflow to functions
+15. LCEL
+
+Test
+1. Execution error was appened to the prompt based on first solution
+2. please retry to answer, prompt to retry
+3. new test works, result is the functionable code
+4. check prefix, imports, code
+5. statistics showed that 50% success without langraph, with, 80% success rate. 
+6. point 5 is the average, not considering the error range(error bar).
